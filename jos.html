@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer - Filme</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(90deg, #1a3a6b 0%, #0f2557 100%);
+            color: #e8e8e8;
+            padding: 2px 6px;
+        }
+        
+        .footer-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            flex-wrap: wrap;
+            max-width: 100%;
+        }
+        
+        .label {
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-right: 10px;
+            white-space: nowrap;
+        }
+        
+        .footer-item {
+            background: rgba(230, 230, 230, 0.95);
+            padding: 2px 4px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid #4a90e2;
+        }
+        
+        .footer-item:hover {
+            background: rgba(240, 240, 240, 1);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .footer-item a {
+            color: #000066;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+        
+        .footer-item a:hover {
+            color: #4a90e2;
+        }
+        
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            height: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #4a90e2;
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #5ba3ff;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .footer-container {
+                gap: 4px;
+            }
+            
+            .footer-item {
+                padding: 5px 10px;
+            }
+            
+            .footer-item a {
+                font-size: 0.85rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 5px 10px;
+            }
+            
+            .footer-container {
+                gap: 3px;
+            }
+            
+            .label {
+                font-size: 0.85rem;
+                margin-right: 5px;
+            }
+            
+            .footer-item {
+                padding: 4px 8px;
+            }
+            
+            .footer-item a {
+                font-size: 0.8rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .footer-container {
+                justify-content: flex-start;
+            }
+            
+            .label {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="footer-container">
+        <span class="label">FILME:</span>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=LO-4EdLiMUY" target="_new">Predare 1</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=L_xvh35T5Ps" target="_new">Predare 2</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=x21MRPx4dxA" target="_new">Evaluare</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=aBQf44fvi98&feature=youtu.be" target="_new">Livework1</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=U1eoH_SqhCU" target="_new">Livework2</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=wE5LQ6Zh0qY" target="_new">Idroo</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=mZhRgIgCYCE" target="_new">Openboard</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=GxVx-zQku6A" target="_new">Whiteboard</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=usebNMeIRek" target="_new">Quizizz0</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=xOpA79EfwrY" target="_new">Quizizz1</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=404v7Y3_dlY" target="_new">Quizizz2</a>
+        </div>
+        <div class="footer-item">
+            <a href="https://www.youtube.com/watch?v=BO7uw3B4cf8" target="_new">WordWall</a>
+        </div>
+    </div>
+</body>
+</html>
